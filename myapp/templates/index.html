@@ -1,11 +1,23 @@
+{ % load static % }
 <!DOCTYPE html>
 <html>
-    <head>
+   <head>
         <title>HOME PAGE</title>
-        <body>
+        <link rel="stylesheet"href="{ % static 'css/style.css' %}">
+        <style>
+            body{
+                background-color:rgb(250, 248, 215) ;
+                text-align: center;
+            }
+    
+        </style>
+            <body>
+            
+            
             <form action="" method="">
-                Username:<input type="text"name=abc>
-                Password:<input type="password"name=password>
+                <h1 style="color:rgb(12, 85, 61); text-align:center;">Welcome to Login Page</h1>
+                Username:<input type="text"name=abc><br>
+                Password:<input type="password"name=password><br>
                 <input type="submit"value="login">
             </form>
         </body>
