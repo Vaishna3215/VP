@@ -1,6 +1,17 @@
 body{
-    background-color: rgb(71, 165, 42);
+    background-color: rgb(165, 126, 42);
     text-align: center;
     
 
+}
+
+#heading{
+color: black;
+}
+
+.div{
+    padding: 15px;
+    background-color: bisque;
+    width: 300px;
+    align-items: center;
 }
