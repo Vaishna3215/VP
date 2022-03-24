@@ -7,16 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <form>  
+    <form action="{% url 'newlogin' %}" method="post">  
+        {% csrf_token %}
         <div class="container">   
             <label>Username : </label>   
             <input type="text" placeholder="Enter Username" name="username">  
             <label>Password : </label>   
             <input type="password" placeholder="Enter Password" name="password">  
             <button type="submit">Login</button>   
-            <!-- <input type="checkbox" checked="checked"> Remember me   
-            <button type="button" class="cancelbtn"> Cancel</button>   
-            Forgot <a href="#"> password? </a>    -->
+            
         </div>   
     </form>     
 </body>
